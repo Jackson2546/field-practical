@@ -3,23 +3,71 @@
   margin: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
+=======
+
+.navbar {
+    background-color: rgb(106, 179, 182);
+    padding: 10px;
+    text-align: center;
+    left: 0;
+  }
+
+  .navbar a{
+    text-decoration: none;
+  }
+
+>>>>>>> 839b4ab (last uptade)
 .cert {
   background-color: rgb(8, 8, 67);
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+<<<<<<< HEAD
+=======
+  text-align: center;
+>>>>>>> 839b4ab (last uptade)
 }
 .my_details {
   background-color: aliceblue;
   color: black;
+<<<<<<< HEAD
   width: 70%;
+=======
+  width: 60%;
+>>>>>>> 839b4ab (last uptade)
   height: 250px;
   padding: 15px;
   margin: auto;
   border-radius: 18px;
+<<<<<<< HEAD
 }
 table, th, td{
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
   
+=======
+  margin-top: 10px;
+
+}
+.my_details h3{
+  color: brown;
+  margin-top: 20px;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px 30px;
+
+}
+
+@media screen and (max-width:700px){
+  .my_details{
+    width: 100%;
+    font-size: 13px;
+    height: 200px;
+  }
+>>>>>>> 839b4ab (last uptade)
 }

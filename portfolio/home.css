@@ -2,7 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+=======
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+>>>>>>> 839b4ab (last uptade)
 }
 
 .navbar {
@@ -13,6 +17,10 @@
   right: 0;
   position: fixed;
   z-index: 6;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 839b4ab (last uptade)
 }
 
 .log {
@@ -76,6 +84,10 @@
   margin: auto;
   width: 50%;
   height: 100%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 839b4ab (last uptade)
 }
 
 .text p {
@@ -124,8 +136,13 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 .my_sevices1 {
   margin-top: 100%;
+=======
+.my_sevices1{
+   margin-top: 100%;
+>>>>>>> 839b4ab (last uptade)
 }
 .my_sevices {
   display: grid;
@@ -135,6 +152,10 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 839b4ab (last uptade)
 }
 
 .services {
@@ -147,6 +168,7 @@
   text-align: center;
   margin-bottom: 20px;
   margin-top: 40px;
+<<<<<<< HEAD
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
   transition: 2s;
 }
@@ -160,11 +182,21 @@ h2 {
 }
 /* About me section */
 .about_me {
+=======
+  box-shadow: 0 8px 12px rgba(0, 0, 0, .4);
+}
+ h2{
+  text-align: center;
+}
+
+.about_me{
+>>>>>>> 839b4ab (last uptade)
   display: flex;
   margin: 0 auto;
   width: 80%;
   height: 100%;
   padding: 15px;
+<<<<<<< HEAD
   gap: 20px;
   margin-top: 60px;
 }
@@ -173,6 +205,16 @@ h2 {
   flex: 1;
 }
 .about img {
+=======
+  gap: 20px ;
+  margin-top: 60px;
+}
+
+.about{
+  flex: 1;
+}
+.about img{
+>>>>>>> 839b4ab (last uptade)
   margin-left: 40px;
   object-fit: cover;
   width: 200px;
@@ -182,24 +224,38 @@ h2 {
   transition: 0.8s;
 }
 
+<<<<<<< HEAD
 .about img:hover {
   box-shadow: 0px 0px 15px 6px tomato;
   transform: scale(1.04);
 }
 
 .about_me1 h1 {
+=======
+.about img:hover{
+   box-shadow: 0px 0px 15px 6px tomato;
+   transform: scale(1.04);
+}
+
+.about_me1 h1{
+>>>>>>> 839b4ab (last uptade)
   text-align: center;
   margin-top: 30px;
   text-decoration: underline;
   color: tomato;
 }
 
+<<<<<<< HEAD
 .available {
+=======
+.available{
+>>>>>>> 839b4ab (last uptade)
   width: 30%;
   height: 30%;
   margin: auto;
   text-align: center;
 }
+<<<<<<< HEAD
 .available h4 {
   margin-top: 20px;
   color: tomato;
@@ -209,11 +265,21 @@ h2 {
 .my_skills {
   display: grid;
   grid-template-columns: 1fr 1fr;
+=======
+.available h4{
+    margin-top: 20px;
+    color: tomato;
+}
+.my_skills{
+  display: grid;
+   grid-template-columns: 1fr 1fr;
+>>>>>>> 839b4ab (last uptade)
   background-color: rgb(8, 8, 67);
   padding: 20px;
   width: 100%;
   margin: 0 auto;
 }
+<<<<<<< HEAD
 .my_skills h3 {
   color: white;
   font-size: 25px;
@@ -223,6 +289,17 @@ h2 {
 }
 
 .skills {
+=======
+.my_skills h3{
+   color: white;
+   font-size: 25px;
+   border-bottom: 5px solid tomato ;
+   width: 20%;
+   text-align: center;
+}
+
+.skills{
+>>>>>>> 839b4ab (last uptade)
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: white;
@@ -236,12 +313,17 @@ h2 {
   text-align: center;
   margin-top: 20px;
 }
+<<<<<<< HEAD
 .skills h2 {
+=======
+.skills h2{
+>>>>>>> 839b4ab (last uptade)
   text-align: center;
   margin: auto;
   grid-column: 1/-1;
 }
 
+<<<<<<< HEAD
 .icons {
   transition: 0.5s;
 }
@@ -260,6 +342,29 @@ h2 {
 .icons:hover {
   transform: scale(1.08);
 }
+=======
+.icons{
+    transition: 0.5s;
+}
+.icons a{
+  text-decoration: none;
+  background-color: rgb(27, 27, 72);
+  color: aliceblue;
+  padding:  9px 12px;
+  border-radius: 9px;
+}
+
+.icons a:hover{
+  background-color: rgb(17, 62, 58);
+  color: tomato;
+ 
+}
+.icons:hover{
+   transform: scale(1.08);
+}
+/* Social Links */
+
+>>>>>>> 839b4ab (last uptade)
 .my_contacts {
   display: flex;
   justify-content: center;
@@ -291,6 +396,7 @@ h2 {
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 .input_box {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -334,6 +440,12 @@ input {
 }
 
 @media screen and (max-width: 600px) {
+=======
+
+
+
+@media screen and (max-width:600px) {
+>>>>>>> 839b4ab (last uptade)
   .navbar {
     flex-direction: column;
     gap: 20px;
@@ -357,7 +469,11 @@ input {
   }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 800px) {
+=======
+@media screen and (max-width:800px) {
+>>>>>>> 839b4ab (last uptade)
   .text h1 {
     font-size: 26px;
     color: tomato;
@@ -379,30 +495,53 @@ input {
     margin-top: 20px;
   }
 
+<<<<<<< HEAD
   .header {
     height: 500px;
   }
   .text {
+=======
+  .header{
+    height: 500px;
+  }
+  .text{
+>>>>>>> 839b4ab (last uptade)
     height: 260px;
     width: 100%;
     border: none;
   }
 
+<<<<<<< HEAD
   .my_sevices {
+=======
+  .my_sevices{
+>>>>>>> 839b4ab (last uptade)
     grid-template-columns: 1fr 1fr;
     width: 100%;
     font-size: 20px;
   }
+<<<<<<< HEAD
   .my_sevices p {
     font-size: 17px;
   }
 
   .log_name h1 {
+=======
+  .my_sevices p{
+    font-size: 17px;
+  }
+
+   .log_name h1{
+>>>>>>> 839b4ab (last uptade)
     font-size: 35px;
   }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 600px) {
+=======
+@media screen and (max-width:600px) {
+>>>>>>> 839b4ab (last uptade)
   .text h1 {
     font-size: 21px;
     color: aqua;
@@ -417,16 +556,25 @@ input {
     font-size: 13px;
   }
 
+<<<<<<< HEAD
   .header {
+=======
+   .header{
+>>>>>>> 839b4ab (last uptade)
     height: 500px;
     margin-top: 150px;
   }
 
+<<<<<<< HEAD
   .text {
+=======
+  .text{
+>>>>>>> 839b4ab (last uptade)
     height: 260px;
     width: 100%;
   }
 
+<<<<<<< HEAD
   .my_sevices {
     grid-template-columns: 1fr;
   }
@@ -435,10 +583,21 @@ input {
   }
 
   .log_name h1 {
+=======
+  .my_sevices{
+    grid-template-columns: 1fr;
+  }
+  .services p{
+     font-size: 14px;
+  }
+
+  .log_name h1{
+>>>>>>> 839b4ab (last uptade)
     text-align: center;
     font-size: 30px;
   }
 
+<<<<<<< HEAD
   .about_me {
     flex-direction: column;
   }
@@ -472,4 +631,21 @@ input {
   .input_box {
     text-align: center;
   }
+=======
+  .about_me{
+    flex-direction: column;
+  }
+  .available p{
+    font-size: 15px;
+  }
+
+  .about img{
+    margin-left: 90px;
+  }
+
+  .my_skills{
+    grid-template-columns: 1fr;
+    box-shadow: 0 8px 10px rgb(255, 99, 71);
+  }
+>>>>>>> 839b4ab (last uptade)
 }
