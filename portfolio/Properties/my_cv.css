@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.cert {
+  background-color: rgb(8, 8, 67);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.my_details {
+  background-color: aliceblue;
+  color: black;
+  width: 70%;
+  height: 250px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 18px;
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>file_path</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .shape {
+      width: 70%;
+      height: 100%;
+      font-size: 18px;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      padding: 20px;
+      border: 2px solid black;
+    }
+
+    .shape img {
+      width: 100%;
+      height: 600px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    header {
+      background-color: rgb(99, 36, 36);
+      padding: 20px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      color: brown;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .navbar {
+      background-color: rgb(106, 179, 182);
+      padding: 10px;
+      text-align: center;
+      margin-top: 82px;
+      left: 0;
+    }
+
+    .pagenation a {
+      margin-left: 10px;
+      text-decoration: none;
+    }
+
+    .pagenation a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <header>Log Book</header>
+
+    <div class="navbar">
+      <div class="pagenation">
+        <a href="#">&laquo;</a>
+        <a href="day_1.html">1</a>
+        <a href="day_2.html">2</a>
+        <a href="day_3.html">3</a>
+        <a href="day_4.html">4</a>
+        <a href="day_5.html">5</a>
+        <a href="#">&raquo;</a>
+      </div>
+    </div>
+
+    <h1>DAY 5</h1>
+    <div class="shape">
+      <p>
+        A relative file path describes where a file is located relative to the
+        current directory.<br />
+
+        Example:<br />
+        <span> <img src="./file_path.png" alt="file paths" /> </span><br />
+        If index.html needs to access logo.png, the relative path is:
+        images/logo.png.<br />
+        If style.css needs to access logo.png, it goes up one directory first:
+        ../images/logo.png.<br />
+        Common symbols: ./ → current directory ../ → parent directory
+        folder/file → enter a subfolder
+      </p>
+    </div>
+  </body>
+</html>
