@@ -425,6 +425,7 @@ input {
   }
 
   .btn button {
+    width: 100%;
     padding: 4px;
     font-size: 13px;
   }
