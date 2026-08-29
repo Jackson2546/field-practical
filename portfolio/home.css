@@ -1,0 +1,475 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  padding: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 6;
+}
+
+.log {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.log_name {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  float: right;
+  transition: 2s;
+}
+
+.topnav a:hover {
+  color: tomato;
+  text-decoration: underline;
+}
+
+.header {
+  position: relative;
+  background-image: url("./pictures/Jackson.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.header::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.header h1,
+.header p,
+.header .btn {
+  position: relative;
+  z-index: 1;
+}
+
+.text {
+  border: 1px solid rgb(247, 245, 245);
+  padding: 15px;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+}
+
+.text p {
+  color: aliceblue;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.text h1 {
+  color: white;
+  margin-top: 20px;
+  margin: auto;
+  font-size: 40px;
+}
+
+.text h2 {
+  color: white;
+}
+
+.btn button {
+  background-color: rgb(86, 221, 221);
+  border: none;
+  padding: 15px 30px;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 8px 10px tomato;
+  transition: 1s;
+}
+
+.btn:hover {
+  transform: scaleY(1.2);
+}
+
+.section {
+  display: flex;
+  float: left;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.txt {
+  text-align: center;
+}
+
+.my_sevices1 {
+  margin-top: 100%;
+}
+.my_sevices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.services {
+  flex: 1;
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+  height: 200px;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+  transition: 2s;
+}
+
+.sevices:hover {
+  transform: scale(1.03);
+}
+
+h2 {
+  text-align: center;
+}
+/* About me section */
+.about_me {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  padding: 15px;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.about {
+  flex: 1;
+}
+.about img {
+  margin-left: 40px;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 6px tomato;
+  transition: 0.8s;
+}
+
+.about img:hover {
+  box-shadow: 0px 0px 15px 6px tomato;
+  transform: scale(1.04);
+}
+
+.about_me1 h1 {
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+  color: tomato;
+}
+
+.available {
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  text-align: center;
+}
+.available h4 {
+  margin-top: 20px;
+  color: tomato;
+}
+
+/* my skills container */
+.my_skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(8, 8, 67);
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+.my_skills h3 {
+  color: white;
+  font-size: 25px;
+  border-bottom: 5px solid tomato;
+  width: 20%;
+  text-align: center;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.skills h2 {
+  text-align: center;
+  margin: auto;
+  grid-column: 1/-1;
+}
+
+.icons {
+  transition: 0.5s;
+}
+.icons a {
+  text-decoration: none;
+  background-color: rgb(27, 27, 72);
+  color: aliceblue;
+  padding: 9px 12px;
+  border-radius: 9px;
+}
+
+.icons a:hover {
+  background-color: rgb(17, 62, 58);
+  color: tomato;
+}
+.icons:hover {
+  transform: scale(1.08);
+}
+.my_contacts {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.contacts {
+  margin-left: 20px;
+  padding: 20px;
+}
+.social_link {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social_link i {
+  margin-top: 20px;
+  background-color: brown;
+  padding: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+}
+.details {
+  margin-top: 20px;
+  color: rgb(27, 187, 187);
+  font-size: 18px;
+}
+
+.input_box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 10px 35px;
+  width: 350px;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 15px;
+  border: none;
+  border-bottom: 2px solid brown;
+}
+
+input[type="message"] {
+  padding: 10px 35px;
+  width: 350px;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 15px;
+  border: none;
+  border-bottom: 2px solid brown;
+}
+
+button {
+  padding: 10px 35px;
+  width: 350px;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 20px;
+  color: brown;
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 2px solid brown;
+}
+
+input {
+  outline: none;
+  font-size: 23px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    z-index: 2;
+  }
+
+  .topnav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .topnav a {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .text h1 {
+    font-size: 26px;
+    color: tomato;
+    margin-top: 20px;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .btn button {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .section {
+    flex-direction: column;
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  .header {
+    height: 500px;
+  }
+  .text {
+    height: 260px;
+    width: 100%;
+    border: none;
+  }
+
+  .my_sevices {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    font-size: 20px;
+  }
+  .my_sevices p {
+    font-size: 17px;
+  }
+
+  .log_name h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text h1 {
+    font-size: 21px;
+    color: aqua;
+  }
+
+  .text p {
+    font-size: 13px;
+  }
+
+  .btn button {
+    padding: 4px;
+    font-size: 13px;
+  }
+
+  .header {
+    height: 500px;
+    margin-top: 150px;
+  }
+
+  .text {
+    height: 260px;
+    width: 100%;
+  }
+
+  .my_sevices {
+    grid-template-columns: 1fr;
+  }
+  .services p {
+    font-size: 14px;
+  }
+
+  .log_name h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .about_me {
+    flex-direction: column;
+  }
+  .available p {
+    font-size: 15px;
+  }
+
+  .about_me {
+    margin: auto;
+  }
+
+  .my_skills {
+    grid-template-columns: 1fr;
+    box-shadow: 0 8px 10px rgb(255, 99, 71);
+  }
+
+  .skills {
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 300px;
+  }
+
+  .my_contacts {
+    display: block;
+  }
+
+  .social_link {
+    margin: auto;
+  }
+
+  .input_box {
+    text-align: center;
+  }
+}
